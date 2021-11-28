@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Add new FYP</title>
+  <meta name="description" content="page to add a new fyp">
+
+  <meta property="og:title" content="page to add a new fyp">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+  <h1 class="mainTitle">Add new Final Year Project</h1>
+  <br/>
+  
+  <form action="javascript:alert( 'Project Added Successfully!' );" class="form" id="form">
+    <fieldset>
+      <legend>Add Project Here</legend>
+      <p><label>Project Title</label>
+        <input type="text" name="title"  id="projecttitle"></p>
+      <p><label>Project Description</label>
+        <textarea type="text" name="description"  id="projectdescription"></textarea></p>
+      <p><label>Your Email</label>
+        <input type="email" name="email" id="projectemail"></p>
+    </fieldset>
+    
+    <p><input type="submit" name="submit" value="Submit Project" class="button"></p>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>
